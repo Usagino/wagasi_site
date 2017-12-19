@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@font-face{
+  font-family: 'mutuki';
+  src: url(../material/Mutsuki.ttf);
+}
+header{
+  margin: 0 auto;
+  height: 600px;
+  background-image:url("../material/header_image.jpg");
+  background-size: cover;
+  width: 1200px;
+}
+header img{
+  height: 200px;
+  background-size: cover;
+}
+header .nav{
+  display: inline;
+  float: right;
+  padding: 0 10px;
+}
+header .nav a{
+  font-family: 'mutuki';
+  display: inline-block;
+  font-size: 24px;
+  color: #697a6d;
+  margin-top: 40px;
+  padding-left: 70px;
+  text-decoration: none;
+}
+header .nav a :hover{
+  text-decoration: none;
+  color: #697a6d;
+}
+#like{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-template-rows: auto auto;
+  width: 1200px;
+  margin: 0 auto;
+  grid-gap: 5px 150px;
+}
+main h1{
+  text-align: center;
+  font-family: 'mutuki';
+}
+#like div img{
+  height: 300px;
+  width: 300px;
+}
+#product{
+  display: grid;
+  grid-template-columns: 400px auto;
+  grid-template-rows: auto auto auto;
+  margin: 0 auto;
+  width: 1200px;
+  grid-gap: 5px 100px;
+}
+
+#shop_info{
+  display: grid;
+  grid-template-columns: 550px 550px;
+  grid-template-rows: 550px 550px;
+  margin: 0 auto;
+  width: 1200px;
+  grid-gap: 100px 100px;
+}
+#shop_info img{
+  height: 550px;
+  width: 550px;
+}
+#shop_info .shop{
+  height: 550px;
+  width: 550px;
+  background-color: #6a7a6d;
+}
+#shop_info iframe{
+  height: 550px;
+  width: 550px;
+}
